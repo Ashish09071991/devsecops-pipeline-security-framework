@@ -1,0 +1,7 @@
+﻿framework:
+  - terraform
+soft-fail: false
+compact: true
+quiet: false
+skip-check:
+  - CKV_AZURE_1  # Example documented exception with security approval
